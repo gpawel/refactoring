@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Addition Service" verbose="1" >
+    <test name="Addition Service Regression">
+        <packages>
+            <package name="org.qamation.refactoring.service" />
+        </packages>
+    </test>
+</suite>
